@@ -15,17 +15,17 @@
 ul,
 li {
   list-style: none;
+}
 
-  p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    padding: 0;
-    margin: 0;
-  }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
 }
 a {
   text-decoration: none;
@@ -121,7 +121,8 @@ body {
   background-color: var(--dark-background);
   text-align: center;
   max-width: 1600px;
-  
+  margin: 0 auto;
+  padding: 200px 0;
 }
 .hero-title {
   color: var(--white-color);
@@ -131,20 +132,20 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  
+  max-width: 660px;
+  margin: 0 auto;
 }
 .hero-button {
   font-family: inherit;
-  display: inline-block;
   border-radius: 4px;
-  text-align: center;
   width: 200px;
   height: 50px;
-  padding: 10px 32px;
   margin-top: 30px;
-  margin-bottom: 200px;
+  color: #fff;
+  background: #2196f3;
+  border: none;
 }
-}
+
 .button {
   font-family: inherit;
   /* background-color: var(--accent-color); */
@@ -175,6 +176,9 @@ body {
   width: 270px;
 }
 /* Activity */
+.activity-section {
+  margin-top: -94px;
+}
 .activity {
   color: var(--title-text-color);
   font-size: 36px;
@@ -218,6 +222,11 @@ body {
 .team-list-item {
   background-color: var(--white-color);
 }
+.team-item-wrapper {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .team-member {
   color: var(--title-text-color);
   font-weight: 500;
@@ -225,6 +234,7 @@ body {
   text-align: center;
   line-height: 1.18;
   letter-spacing: 0.03em;
+  padding-bottom: 10px;
 }
 .team-position {
   color: var(--primary-text-color);
